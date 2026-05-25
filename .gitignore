@@ -1,0 +1,55 @@
+# ==================== C++ Build Files ====================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+kinocritic
+kinocritic.exe
+*.dSYM/
+
+# ==================== macOS Specific ====================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
+*.swp
+*.swo
+.DS_Store?
+
+# ==================== IDE / Editor Files ====================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserdatad/
+
+# CLion / JetBrains
+.idea/
+
+# ==================== Project Specific ====================
+data.txt
+*.log
+*.tmp
+*.bak
+*.backup
+
+# ==================== CMake / Build Directories ====================
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+CMakeLists.txt.user
+
+# ==================== Temporary ====================
+*.tmp
+*.temp
