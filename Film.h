@@ -26,6 +26,8 @@ public:
     std::string getGenre() const;
     int getYear() const;
     double getRating() const;
+
+    void setRating(double r);
 };
 
 } // namespace kinocritic
